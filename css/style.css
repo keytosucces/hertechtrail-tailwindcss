@@ -1,0 +1,43 @@
+#parent {
+    height: 60px;
+}
+
+.one {
+    height: 25%;
+    background: darkgreen;
+}
+
+.two {
+    height: 25%;
+    background: purple;
+}
+
+.three {
+    height: 25%;
+    background: navy;
+}
+
+@media  screen and (max-width: 900px) {
+    #parent {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .one {
+        width: 33.3%;
+        height: 100%;
+        background: darkgreen;
+    }
+    
+    .two {
+        width: 33.3%;
+        height: 100%;
+        background: purple;
+    }
+    
+    .three {
+        width: 33.3%;
+        height: 100%;
+        background: navy;
+    }
+}
